@@ -1,6 +1,6 @@
 package com.leet;
 
-public class Exercice {
+public class Solution {
     public void method() {
         // implement
     };
