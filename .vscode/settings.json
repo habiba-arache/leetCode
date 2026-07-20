@@ -1,3 +1,13 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+
+    "editor.suggestOnTriggerCharacters": true,
+
+    "java.autobuild.enabled": true,
+
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
