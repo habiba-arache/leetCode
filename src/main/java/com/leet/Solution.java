@@ -1,7 +1,8 @@
 package com.leet;
 
 public class Solution {
-    public void method() {
+    public int method() {
         // implement
+        return 1;
     };
 }
