@@ -23,4 +23,16 @@ public class SolutionTest {
         Solution s = new Solution();
         assertEquals(16, s.maxArea(new int[] { 4, 3, 2, 1, 4 }));
     }
+
+    @Test
+    public void test3() {
+        Solution s = new Solution();
+        assertEquals(9, s.maxArea(new int[] { 1, 1, 1, 1, 1, 1, 10001, 9 }));
+    }
+
+    @Test
+    public void test4() {
+        Solution s = new Solution();
+        assertEquals(2, s.maxArea(new int[] { 1, 2, 1 }));
+    }
 }
