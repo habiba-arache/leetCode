@@ -9,6 +9,18 @@ public class SolutionTest {
     @Test
     public void test() {
         Solution s = new Solution();
-        assertEquals(1, 0);
+        assertEquals("MMMDCCXLIX", s.intToRoman(3749));
+    }
+
+    @Test
+    public void test1() {
+        Solution s = new Solution();
+        assertEquals("LVIII", s.intToRoman(58));
+    }
+
+    @Test
+    public void test2() {
+        Solution s = new Solution();
+        assertEquals("MCMXCIV", s.intToRoman(1994));
     }
 }
